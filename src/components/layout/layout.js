@@ -4,7 +4,7 @@ import User from "../user/user.component";
 import Logo from "../../images/taskverse_logo.png";
 const { SubMenu } = Menu;
 const { Header, Sider, Content, Footer } = Layout;
-
+ 
 export default class PrimaryLayout extends Component {
   componentName = "Layout Component";
 
@@ -13,7 +13,7 @@ export default class PrimaryLayout extends Component {
       <div>
         <Layout style={{ height: "100vh" }}>
           <Header className="header">
-            <div style={{ float: "left", padding: "0px 40px 0px 0px" }}>
+            <div style={{ float: "left", padding: "0px 50px 0px 0px" }}>
               <img src={Logo} alt="logo"/>
             </div>
             <Menu theme="dark" mode="horizontal">
